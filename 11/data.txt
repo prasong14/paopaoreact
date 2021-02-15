@@ -1,0 +1,27 @@
+  var customerData = {
+    name: "Diego",
+    address: {
+      street: "Bang Kapi St.",
+      province: "Bangkok",
+      zipCode: "12222"
+    },
+    phone: "085-123-4567"
+  }
+
+  var sellerData = {
+    name: "Liverpool, Thailand",
+    address: {
+      street: "Ratchada St.",
+      province: "Bangkok",
+      zipCode: "11111"
+    },
+    phone: "02-111-5555"
+  }
+
+  var salesData = [
+    {name: "Liverpool home jersey", unitPrice: 2750, qty: 50},
+    {name: "Liverpool away jersey", unitPrice: 2750, qty: 100},
+    {name: "Liverpool thrid jersey", unitPrice: 2750, qty: 75},
+    {name: "Liverpool home jersey(2020)", unitPrice: 1200, qty: 20},
+    {name: "LVP FC 2021 squad mascot (Full option)", unitPrice: 3990.5, qty: 59}
+  ]
